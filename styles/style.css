@@ -1,0 +1,216 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/* .....................primary styles .......................*/
+.primary-title {
+    font-size: 40px;
+}
+
+.primary-btn {
+    width: 160px;
+    height: 65px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* ...................style header and banner................. */
+
+#header {
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    height: 650px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+
+
+}
+
+.banner {
+    text-align: end;
+    margin-right: 150px;
+}
+
+.banner h1 {
+    font-size: 65px;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    font-size: 16px;
+    width: 300px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+
+}
+
+.banner button {
+    color: white;
+    background-color: #FD6E0A;
+}
+
+/*  ....................secound section styles ................. */
+.person-section {
+    display: flex;
+    align-items: center;
+    margin: 120px 100px;
+
+}
+
+.person-section img {
+    width: 469px;
+
+    Height: 623.3px;
+
+}
+
+.person-container {
+    margin-top: 90px;
+    margin-left: 130px;
+}
+
+.person-container ul {
+    margin-left: 0;
+}
+
+.person-section li {
+    display: block;
+    list-style: none;
+    margin-left: -43px;
+}
+
+.person-container ul li .fa-check {
+    color: rgba(0, 255, 115, 0.986);
+}
+
+.person-article {
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+/* ............................style plan section..............  */
+.plan-title {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.plan-containers {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 50px 100px 50px;
+}
+
+.plan-container {
+    text-align: center;
+}
+
+.plan-container h3 {
+    margin: 14px 0;
+}
+
+/* ..........................about plan styles ............... */
+.plan-title {
+    text-align: center;
+}
+
+.plan-title span {
+    color: #FD6E0A;
+}
+
+.about-plan {
+    margin: 70px 80px;
+}
+
+.about-containers {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.about-container {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+
+    background-color: rgba(173, 216, 230, 0.205);
+    box-shadow: 10px 10px 60px;
+
+}
+
+/* ....................img -gradient styles .................... */
+.sec-watch {
+
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    height: 307px;
+    margin: 20px 143px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-watch {
+    position: relative;
+}
+
+
+.text {
+    margin-top: -230px;
+    position: absolute;
+    margin-left: 40px;
+}
+
+.always {
+    color: white;
+}
+
+/* ...........................add footer styles............. */
+footer {
+    margin-top: 100px;
+    height: 560px;
+    background-color: black;
+    color: white;
+}
+
+.footer-containers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-container {
+    width: 485px;
+    height: 317px;
+    margin-top: 150px;
+}
+
+.footer-title {
+    color: white;
+    font-size: 24px;
+}
+
+.icons-footer img {
+    margin-right: 20px;
+}
+
+#email {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 16px;
+    color: white;
+    width: 300px;
+    height: 30px;
+    padding: 20px;
+}
+
+.footer-btn {
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 18px;
+}
